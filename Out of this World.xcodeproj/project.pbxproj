@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F337D51F19BE977300637DC7 /* AstronomicalData.m in Sources */ = {isa = PBXBuildFile; fileRef = F337D51E19BE977300637DC7 /* AstronomicalData.m */; };
 		F3A9037E19BBB995007CF8A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A9037D19BBB995007CF8A9 /* Foundation.framework */; };
 		F3A9038019BBB995007CF8A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A9037F19BBB995007CF8A9 /* CoreGraphics.framework */; };
 		F3A9038219BBB995007CF8A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A9038119BBB995007CF8A9 /* UIKit.framework */; };
@@ -14,13 +15,13 @@
 		F3A9038A19BBB995007CF8A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A9038919BBB995007CF8A9 /* main.m */; };
 		F3A9038E19BBB995007CF8A9 /* CPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A9038D19BBB995007CF8A9 /* CPAppDelegate.m */; };
 		F3A9039119BBB995007CF8A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A9038F19BBB995007CF8A9 /* Main.storyboard */; };
-		F3A9039419BBB995007CF8A9 /* CPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A9039319BBB995007CF8A9 /* CPViewController.m */; };
 		F3A9039619BBB995007CF8A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3A9039519BBB995007CF8A9 /* Images.xcassets */; };
 		F3A9039D19BBB995007CF8A9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A9039C19BBB995007CF8A9 /* XCTest.framework */; };
 		F3A9039E19BBB995007CF8A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A9037D19BBB995007CF8A9 /* Foundation.framework */; };
 		F3A9039F19BBB995007CF8A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A9038119BBB995007CF8A9 /* UIKit.framework */; };
 		F3A903A719BBB995007CF8A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3A903A519BBB995007CF8A9 /* InfoPlist.strings */; };
 		F3A903A919BBB995007CF8A9 /* Out_of_this_WorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A903A819BBB995007CF8A9 /* Out_of_this_WorldTests.m */; };
+		F3A903B419BBBCF7007CF8A9 /* CPOuterSpaceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A903B319BBBCF7007CF8A9 /* CPOuterSpaceTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F337D51D19BE977300637DC7 /* AstronomicalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AstronomicalData.h; sourceTree = "<group>"; };
+		F337D51E19BE977300637DC7 /* AstronomicalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AstronomicalData.m; sourceTree = "<group>"; };
 		F3A9037A19BBB995007CF8A9 /* Out of this World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Out of this World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A9037D19BBB995007CF8A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F3A9037F19BBB995007CF8A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +48,14 @@
 		F3A9038C19BBB995007CF8A9 /* CPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPAppDelegate.h; sourceTree = "<group>"; };
 		F3A9038D19BBB995007CF8A9 /* CPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPAppDelegate.m; sourceTree = "<group>"; };
 		F3A9039019BBB995007CF8A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F3A9039219BBB995007CF8A9 /* CPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPViewController.h; sourceTree = "<group>"; };
-		F3A9039319BBB995007CF8A9 /* CPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPViewController.m; sourceTree = "<group>"; };
 		F3A9039519BBB995007CF8A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F3A9039B19BBB995007CF8A9 /* Out of this WorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Out of this WorldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A9039C19BBB995007CF8A9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F3A903A419BBB995007CF8A9 /* Out of this WorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Out of this WorldTests-Info.plist"; sourceTree = "<group>"; };
 		F3A903A619BBB995007CF8A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F3A903A819BBB995007CF8A9 /* Out_of_this_WorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Out_of_this_WorldTests.m; sourceTree = "<group>"; };
+		F3A903B219BBBCF7007CF8A9 /* CPOuterSpaceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPOuterSpaceTableViewController.h; path = ../CPOuterSpaceTableViewController.h; sourceTree = "<group>"; };
+		F3A903B319BBBCF7007CF8A9 /* CPOuterSpaceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CPOuterSpaceTableViewController.m; path = ../CPOuterSpaceTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +118,8 @@
 				F3A9038C19BBB995007CF8A9 /* CPAppDelegate.h */,
 				F3A9038D19BBB995007CF8A9 /* CPAppDelegate.m */,
 				F3A9038F19BBB995007CF8A9 /* Main.storyboard */,
-				F3A9039219BBB995007CF8A9 /* CPViewController.h */,
-				F3A9039319BBB995007CF8A9 /* CPViewController.m */,
+				F3A903B219BBBCF7007CF8A9 /* CPOuterSpaceTableViewController.h */,
+				F3A903B319BBBCF7007CF8A9 /* CPOuterSpaceTableViewController.m */,
 				F3A9039519BBB995007CF8A9 /* Images.xcassets */,
 				F3A9038419BBB995007CF8A9 /* Supporting Files */,
 			);
@@ -126,6 +129,8 @@
 		F3A9038419BBB995007CF8A9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F337D51D19BE977300637DC7 /* AstronomicalData.h */,
+				F337D51E19BE977300637DC7 /* AstronomicalData.m */,
 				F3A9038519BBB995007CF8A9 /* Out of this World-Info.plist */,
 				F3A9038619BBB995007CF8A9 /* InfoPlist.strings */,
 				F3A9038919BBB995007CF8A9 /* main.m */,
@@ -249,9 +254,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3A903B419BBBCF7007CF8A9 /* CPOuterSpaceTableViewController.m in Sources */,
 				F3A9038A19BBB995007CF8A9 /* main.m in Sources */,
 				F3A9038E19BBB995007CF8A9 /* CPAppDelegate.m in Sources */,
-				F3A9039419BBB995007CF8A9 /* CPViewController.m in Sources */,
+				F337D51F19BE977300637DC7 /* AstronomicalData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +462,7 @@
 				F3A903AE19BBB995007CF8A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3A903AF19BBB995007CF8A9 /* Build configuration list for PBXNativeTarget "Out of this WorldTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				F3A903B119BBB995007CF8A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
